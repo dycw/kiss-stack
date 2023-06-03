@@ -1,0 +1,46 @@
+.start-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-family: "Poppins";
+
+    input {
+      margin-bottom: 15px;
+      outline: none;
+      border: 0;
+      border-radius: 8px;
+      background-color: #f2f2f2;
+      padding: 0 25px;
+      height: 54px;
+      font-size: 17px;
+    }
+
+    p.err {
+      margin: 0;
+      color: red;
+      font-weight: 300;
+    }
+
+    footer {
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+
+      p {
+        margin: 0 0 0 auto;
+        font-weight: 300;
+
+        a {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
