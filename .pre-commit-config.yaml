@@ -1,8 +1,8 @@
 repos:
-  # - repo: https://github.com/dycw/pre-commit-hooks
-  #   rev: 0.8.26
-  #   hooks:
-  #     - id: run-bump2version
+  - repo: https://github.com/dycw/pre-commit-hooks
+    rev: 0.8.26
+    hooks:
+      - id: run-bump2version
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: v3.0.0-alpha.9-for-vscode
     hooks:

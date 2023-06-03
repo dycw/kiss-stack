@@ -1,6 +1,6 @@
-# `template-typescript`
+# Full stack app with Astro JS, Solid JS and PocketBase (Awesome)
 
-Template for TypeScript repositories
+https://www.youtube.com/watch?v=rEka64_stis
 
 ## Getting started
 

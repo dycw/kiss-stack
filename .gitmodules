@@ -1,0 +1,3 @@
+[submodule "kiss-stack"]
+	path = kiss-stack
+	url = https://github.com/awesome-club/kiss-stack
