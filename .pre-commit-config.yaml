@@ -1,0 +1,32 @@
+repos:
+  # - repo: https://github.com/dycw/pre-commit-hooks
+  #   rev: 0.8.26
+  #   hooks:
+  #     - id: run-bump2version
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.0.0-alpha.9-for-vscode
+    hooks:
+      - id: prettier
+        additional_dependencies:
+          - prettier-plugin-css-order
+          - prettier-plugin-organize-attributes
+          - prettier-plugin-organize-imports
+          - prettier-plugin-tailwindcss
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-executables-have-shebangs
+      - id: check-merge-conflict
+      - id: check-shebang-scripts-are-executable
+      - id: check-symlinks
+      - id: destroyed-symlinks
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: no-commit-to-branch
+      - id: trailing-whitespace
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.9.0.2
+    hooks:
+      - id: shellcheck
